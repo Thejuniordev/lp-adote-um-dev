@@ -39,7 +39,14 @@ input {
   border-radius: 5px;
   height: 40px;
   width: 100%;
-  padding: 0 20px;
+  padding: 0 10px;
+}
+
+input[type="checkbox"] {
+  max-width: 20px;
+  margin: 0;
+  width: auto;
+  height: auto;
 }
 
 * {
@@ -51,4 +58,20 @@ input {
   max-width: 1300px;
   padding: 0 20px;
   margin:  0 auto;
+}
+
+.btn {
+  cursor: pointer;
+  width: 100%;
+  max-width: 150px;
+  border: none;
+  border-radius: 5px;
+  background-color: $color_primary;
+  color: $color_nutral;
+  padding: 12px 0;
+  transition: all .3s ease;
+  &:hover {
+    box-shadow: 1px 1px 12px 0px #808ce9;
+    transition: all .3s ease;
+  }
 }

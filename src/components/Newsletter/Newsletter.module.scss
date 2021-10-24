@@ -8,10 +8,21 @@
     .content {
         display: flex;
         justify-content: space-between;
+        align-items: flex-end;
     }
     &__control {
         position: relative;
         width: 100%;
         max-width: 35%;
+    }
+    .terms {
+        display: flex;
+        padding-top: 10px;
+        &__text {
+            padding-left: 10px;
+            .link {
+                color: $color_primary;
+            }
+        }
     }
 }

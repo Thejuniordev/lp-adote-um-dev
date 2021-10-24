@@ -14,7 +14,11 @@ export function Newsletter() {
                         <label>E-mail</label>
                         <input id="email" type="mail" autoComplete="email" placeholder='Seu e-mail' required />
                     </div>
-                    <button type="submit">Enviar</button>
+                    <button className="btn" type="submit">Enviar</button>
+                </div>
+                <div className={styles.terms}>
+                    <input type="checkbox" />
+                    <small className={styles.terms__text}>Aceitar <a href='#' className={styles.link}>termos de privacidade</a></small>
                 </div>
             </form>
         </section>
