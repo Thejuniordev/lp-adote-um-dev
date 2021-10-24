@@ -1,0 +1,21 @@
+header {
+    .content {
+        padding: 20px 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        &__logo {
+            position: relative;
+            width: 100%;
+            max-width: 100px;
+            height: 83px;
+            margin: 0;
+        }
+        &__title {
+            padding-left: 20px;
+            .title {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
