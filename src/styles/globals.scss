@@ -26,6 +26,22 @@ h1, h2{
   margin-bottom: 0;
 }
 
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: $gray;
+}
+
+input {
+  border: 1px solid $gray_2;
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+  padding: 0 20px;
+}
+
 * {
   box-sizing: border-box;
 }

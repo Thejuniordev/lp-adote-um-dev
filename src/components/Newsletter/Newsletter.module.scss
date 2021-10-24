@@ -1,0 +1,17 @@
+@import '../../styles/utilities/variables';
+.form {
+    position: relative;
+    &__title {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__control {
+        position: relative;
+        width: 100%;
+        max-width: 35%;
+    }
+}
