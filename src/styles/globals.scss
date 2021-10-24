@@ -74,4 +74,27 @@ input[type="checkbox"] {
     box-shadow: 1px 1px 12px 0px #808ce9;
     transition: all .3s ease;
   }
+  &__secundary {
+    background-color: transparent;
+    border: 2px solid $color_primary;
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    text-align: right;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: $color_primary;
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      background: url('../../public/images/icon_discord.png') no-repeat;
+      width: 25px;
+      height: 25px;
+      background-size: contain;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+    }
+  }
 }
