@@ -15,7 +15,7 @@ export function Header() {
                     </div>
                     <div className={styles.content__title}>
                         <h1 className={styles.title}>Adote um dev</h1>
-                        <small>Feito pela comunidade, para a comunidade</small>
+                        <small className={styles.subtitle}>Feito pela comunidade, para a comunidade</small>
                     </div>
                 </div>
             </div>
