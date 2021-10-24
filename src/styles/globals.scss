@@ -1,9 +1,21 @@
+@import '../styles/utilities/variables';
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
   position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    max-width: 40%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background-color: $color_primary;
+  }
 }
 
 a {
