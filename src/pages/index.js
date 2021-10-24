@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-page-custom-font */
 /* eslint-disable react/no-unknown-property */
 import Head from 'next/head'
+import { Banner } from '../components/Banner'
 import { Header } from '../components/Header'
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet"/>
       </Head>
       <Header />
+      <Banner />
     </>
   )
 }
